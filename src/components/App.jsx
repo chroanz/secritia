@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/login' element={<FormLogin />} />
+        <Route path='/' element={<FormLogin />} />
         <Route path='/cadastro' element={<FormCadastro />} />
       </Routes>
     </BrowserRouter>

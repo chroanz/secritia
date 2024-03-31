@@ -27,7 +27,7 @@ function FormCadastro() {
                         <input placeholder="Repita sua senha" type="password"></input>
                     </div>
                     <button>Finalizar cadastro</button>
-                    <Link to={"/login"}>Voltar</Link>
+                    <Link to={"/"}>Voltar</Link>
                 </form>
             </div>
         </div>
