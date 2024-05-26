@@ -1,5 +1,4 @@
-import { Button } from "antd";
-import "./style.css";
+import * as S from "./styles";
 
 function ButtonDefault({ onClick, label, type }) {
   function handleOnClick() {
@@ -8,11 +7,7 @@ function ButtonDefault({ onClick, label, type }) {
     }
   }
 
-  return (
-    <Button onClick={handleOnClick} type={type}>
-      {label}
-    </Button>
-  );
+  return <S.ButtonContainer onClick={handleOnClick}>{label}</S.ButtonContainer>;
 }
 
 export default ButtonDefault;
