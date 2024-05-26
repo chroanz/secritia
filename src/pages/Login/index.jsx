@@ -31,7 +31,7 @@ export default function LoginForm() {
             <a href="/reset-password">Esqueceu a senha?</a>
           </p>
           <ButtonDefault label={"Entrar"} />
-          <Link to={"/cadastro"}>Clique aqui para fazer seu cadastro!</Link>
+          <Link to={"/register"}>Clique aqui para fazer seu cadastro!</Link>
         </form>
       </S.FormLogin>
     </S.LoginParent>

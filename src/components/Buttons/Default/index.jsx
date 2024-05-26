@@ -1,13 +1,17 @@
 import * as S from "./styles";
 
-function ButtonDefault({ onClick, label, type }) {
+function ButtonDefault({ onClick, label, ...props }) {
   function handleOnClick() {
     if (onClick) {
       onClick();
     }
   }
 
-  return <S.ButtonContainer onClick={handleOnClick}>{label}</S.ButtonContainer>;
+  return (
+    <S.ButtonContainer {...props} onClick={handleOnClick}>
+      {label}
+    </S.ButtonContainer>
+  );
 }
 
 export default ButtonDefault;

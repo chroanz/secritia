@@ -33,7 +33,7 @@ export default function Register() {
             <input placeholder="Repita sua senha" type="password" />
           </div>
           <button>Finalizar cadastro</button>
-          <Link to={"/"}>Voltar</Link>
+          <Link to={"/login"}>Voltar</Link>
         </form>
       </S.FormCadastro>
     </S.SigninParent>

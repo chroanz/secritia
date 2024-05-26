@@ -16,9 +16,9 @@ export default function ResetPassword() {
           placeholder={"E-mail institucional"}
           isRequired={true}
         />
-        <ButtonDefault label={"Enviar"} />
+        <ButtonDefault label={"Enviar código de recuperação"} />
         <S.Back>
-          <a href="/">Voltar</a>
+          <a href="/login">Voltar</a>
         </S.Back>
       </S.FormContainer>
     </S.Container>

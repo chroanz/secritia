@@ -6,9 +6,11 @@ export default function InputDefault({
   maxLength,
   placeholder,
   isRequired,
+  ...props
 }) {
   return (
     <S.InputContainer
+      {...props}
       title={title || "Label"}
       required={isRequired || false}
       type={type || "text"}
